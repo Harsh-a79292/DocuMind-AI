@@ -23,7 +23,7 @@ import {
   PanelLeftClose,
 } from "lucide-react";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://documind-ai-backend-mw87.onrender.com";
 
 export default function App() {
   const [documentId, setDocumentId] = useState("");
