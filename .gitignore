@@ -1,0 +1,25 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Database and uploaded files
+data/chroma_db/
+data/raw/*
+data/processed/*
+
+# Build and IDE
+dist/
+build/
+.vscode/
+.idea/
